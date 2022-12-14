@@ -315,7 +315,6 @@ export const chainLogos = Object.entries({
   'GM Parachain': chainGM,
   'Hashed Network': chainHashed,
   helixstreet: nodeHelixstreet,
-  HydraDX: chainSnakenet,
   'HydraDX testnet': chainHydrate,
   Idavoll: nodeIdavoll,
   'Imbue Testnet': nodeImbue,

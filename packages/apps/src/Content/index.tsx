@@ -105,6 +105,7 @@ export default React.memo(styled(Content)`
   padding: 0 0 1rem 0;
   position: relative;
   width: 100%;
+  background: #000;
 
   .connecting {
     padding: 3.5rem 0;

@@ -75,6 +75,8 @@ export default React.memo(styled(Head)`
     h1 {
       display: table-cell;
       vertical-align: middle;
+      font-weight: 500;
+      text-transform: capitalize;
 
       .ui--Icon {
         font-size: 1rem;

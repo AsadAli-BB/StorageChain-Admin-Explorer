@@ -124,8 +124,10 @@ function Menu ({ className = '' }: Props): React.ReactElement<Props> {
     [location]
   );
 
+  const maxWidth = window.screen.width >= 1920;
+
   return (
-    <div className={`${className}${(!apiProps.isApiReady || !apiProps.isApiConnected) ? ' isLoading' : ''} highlight--bg`}>
+    <div className={`${className}${(!apiProps.isApiReady || !apiProps.isApiConnected) ? ' isLoading' : ''} ${maxWidth ? 'Bg--Black' : 'highlight--bg'}`}>
       <div className='menuContainer'>
         <div className='menuSection'>
           <ChainInfo />
@@ -173,6 +175,7 @@ export default React.memo(styled(Menu)`
     width: 100%;
     max-width: var(--width-full);
     margin: 0 auto;
+    background: #000;
   }
 
   &.isLoading {

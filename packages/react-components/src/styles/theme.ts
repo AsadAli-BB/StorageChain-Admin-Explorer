@@ -21,7 +21,8 @@ export default `
   .theme--dark,
   .theme--light {
     a:not(.ui--Tab) {
-      color: ${colorLink};
+      // color: ${colorLink};
+      color: #000;
 
       &:hover,
       a:visited {

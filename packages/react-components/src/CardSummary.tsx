@@ -124,6 +124,7 @@ export default React.memo(styled(CardSummary)`
     position: relative;
     line-height: 1;
     text-align: right;
+    color: #fff;
 
     > * {
       margin: 0.25rem 0;
@@ -139,6 +140,7 @@ export default React.memo(styled(CardSummary)`
 
     > label {
       font-size: 0.95rem;
+      color: #fff;
     }
 
     .isSecondary {

@@ -95,6 +95,7 @@ export default (_theme: ThemeDef): string => `
       input:focus {
         background: #ffffe0;
         border-color: #eeeeae;
+        // border-color: #000;
       }
     }
 

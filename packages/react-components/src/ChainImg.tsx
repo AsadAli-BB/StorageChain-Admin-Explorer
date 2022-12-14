@@ -7,6 +7,8 @@ import styled from 'styled-components';
 import { chainLogos, emptyLogos, namedLogos, nodeLogos, specLogos } from '@polkadot/apps-config';
 import { useApi } from '@polkadot/react-hooks';
 
+import chatLogo from '../../apps-config/src/ui/logos/chains/cchat.jpg';
+
 interface Props {
   className?: string;
   isInline?: boolean;
@@ -34,7 +36,8 @@ function ChainImg ({ className = '', isInline, logo, onClick, withoutHl }: Props
       alt='chain logo'
       className={`${className}${(isEmpty && !withoutHl) ? ' highlight--bg' : ''}${isInline ? ' isInline' : ''}`}
       onClick={onClick}
-      src={img}
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+      src={chatLogo}
     />
   );
 }

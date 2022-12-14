@@ -61,7 +61,8 @@ export default React.memo(styled(Spinner)`
   }
 
   .text {
-    color: inherit !important;
+    // color: inherit !important;
+    color: #fff !important;
     margin: 0.25rem auto 1.5rem auto;
     opacity: 0.6;
 

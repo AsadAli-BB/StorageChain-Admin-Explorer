@@ -79,7 +79,11 @@ export default createGlobalStyle<Props & ThemeProps>(({ theme, uiHighlight }: Pr
   }
 
   .highlight--bg {
-    background: ${getHighlight(uiHighlight)} !important;
+    // background: ${getHighlight(uiHighlight)} !important;
+    background: #766e6e !important;
+  }
+  .Bg--Black {
+    background: #000;
   }
 
   .highlight--bg-contrast {
@@ -133,11 +137,13 @@ export default createGlobalStyle<Props & ThemeProps>(({ theme, uiHighlight }: Pr
   }
 
   .highlight--border {
-    border-color: ${getHighlight(uiHighlight)} !important;
+    // border-color: ${getHighlight(uiHighlight)} !important;
+    border-color: #fff;
   }
 
   .highlight--color {
-    color: ${getHighlight(uiHighlight)} !important;
+    // color: ${getHighlight(uiHighlight)} !important;
+    color: #000;
   }
 
   .highlight--color-contrast {
@@ -167,7 +173,9 @@ export default createGlobalStyle<Props & ThemeProps>(({ theme, uiHighlight }: Pr
   }
 
   .groupMenu {
-    background: ${getHighlight(uiHighlight)} !important;
+    // background: ${getHighlight(uiHighlight)} !important;
+    background: #000;
+    color: #fff;
 
     &::before {
       background: ${getMenuHoverContrast(uiHighlight)};
@@ -197,14 +205,16 @@ export default createGlobalStyle<Props & ThemeProps>(({ theme, uiHighlight }: Pr
   }
 
   .highlight--stroke {
-    stroke: ${getHighlight(uiHighlight)} !important;
+    // stroke: ${getHighlight(uiHighlight)} !important;
+    stroke: #000 !important;
   }
 
   .ui--Button {
     &:not(.isDisabled):not(.isIcon):not(.isBasic),
     &.withoutLink:not(.isDisabled) {
       .ui--Icon {
-        background: ${getHighlight(uiHighlight)};
+        // background: ${getHighlight(uiHighlight)};
+        background: #000;
         color: ${getContrast(uiHighlight)};
       }
     }
@@ -298,7 +308,8 @@ export default createGlobalStyle<Props & ThemeProps>(({ theme, uiHighlight }: Pr
     button:hover,
     .ui--Labelled.ui--Dropdown:hover {
       &::after {
-        background-color:  ${getHighlight(uiHighlight)};
+        // background-color:  ${getHighlight(uiHighlight)};
+        background: #000
       }
     }
 
@@ -311,7 +322,8 @@ export default createGlobalStyle<Props & ThemeProps>(({ theme, uiHighlight }: Pr
   .theme--dark,
   .theme--light {
     .ui--Tabs .tabLinkActive .tabLinkText::after{
-        background: ${getHighlight(uiHighlight)};
+        // background: ${getHighlight(uiHighlight)};
+        background: #000;
     }
 
     .ui.primary.button,
