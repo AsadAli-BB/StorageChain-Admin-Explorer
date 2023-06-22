@@ -218,7 +218,7 @@ import nodeSubsocial from './nodes/subsocial.svg';
 import nodeSubsocialX from './nodes/subsocialX.svg';
 import nodeSubspace from './nodes/subspace.png';
 import nodeSubstrateContractsNode from './nodes/substrate-contracts-node.png';
-import nodeSubstrate from './nodes/substrate-hexagon.svg';
+import nodeSubstrate from './chains/storagechain2.svg';
 import nodeSwapdex from './nodes/swapdex.svg';
 import nodeTernoa from './nodes/ternoa.svg';
 import nodeTrustBase from './nodes/trustbase.png';
@@ -237,11 +237,13 @@ import nodeZeitgeist from './nodes/zeitgeist.png';
 import nodeZenlink from './nodes/zenlink.svg';
 import nodeZero from './nodes/zero.svg';
 import emptyLogo from './empty.svg';
+import storageChain from './chains/storagechain.svg'
 // last-resort fallback, just something empty
 
 // Alphabetical overrides based on the actual matched chain name
 // NOTE: This is as retrieved via system.chain RPC
 export const chainLogos = Object.entries({
+  StorageChain : storageChain,
   'Ajuna Testnet': nodeAjuna,
   'Aleph Zero': chainAleph,
   'Aleph Zero Testnet': chainAleph,
@@ -484,6 +486,7 @@ export const chainLogos = Object.entries({
 // Alphabetical overrides based on the actual software node type
 // NOTE: This is as retrieved via system.name RPC
 export const nodeLogos = Object.entries({
+  StorageChain : storageChain,
   'Acala Node': chainAcala,
   'Ajuna Node': nodeAjuna,
   Amplitude: chainAmplitude,
@@ -696,6 +699,7 @@ export const nodeLogos = Object.entries({
 
 // Alphabetical overrides based on the actual specName
 export const specLogos = Object.entries({
+  StorageChain : storageChain,
   oak: chainOAK,
   shell: nodeShell,
   statemine: nodeStatemine,
@@ -712,6 +716,7 @@ export const specLogos = Object.entries({
 // (Generally would be the 'network' key in the known ss58 as per
 // https://github.com/polkadot-js/common/blob/master/packages/networks/src/index.ts)
 export const namedLogos: Record<string, unknown> = {
+  StorageChain : storageChain,
   acala: chainAcala,
   ajuna: nodeAjuna,
   aleph: chainAleph,

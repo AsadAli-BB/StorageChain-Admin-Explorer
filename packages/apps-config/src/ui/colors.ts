@@ -264,12 +264,14 @@ const specShell = '#2e86ab'; // '#0596FC';
 const specStatemine = '#113911';
 const specStatemint = '#86e62a';
 const specWestmint = '#77bb77';
+const storageChain = '#088DCD';
 
 export { emptyColor };
 
 // Alphabetical overrides based on the actual matched chain name
 // NOTE: This is as retrieved via the system.chain RPC
 export const chainColors: Record<string, string> = Object.entries({
+  StorageChain : storageChain,
   Acala: chainAcala,
   'Acala Dev': chainAcala,
   'acala mandala pc1': chainRoccoMandala,
