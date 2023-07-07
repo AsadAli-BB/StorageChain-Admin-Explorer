@@ -68,15 +68,15 @@ export function createWsEndpoints (t: TFunction = defaultT, firstOnly = false, w
       value: ''
     },
     ...expandEndpoints(t, testChains, firstOnly, withSort),
-    // {
-    //   isDevelopment: true,
-    //   isDisabled: false,
-    //   isHeader: true,
-    //   isSpaced: true,
-    //   text: t('rpc.header.dev', 'Development', { ns: 'apps-config' }),
-    //   textBy: '',
-    //   value: ''
-    // },
+    {
+      isDevelopment: true,
+      isDisabled: false,
+      isHeader: true,
+      isSpaced: true,
+      text: t('rpc.header.dev', 'Development', { ns: 'apps-config' }),
+      textBy: '',
+      value: ''
+    },
     // ...createDev(t),
     // ...createOwn(t)
   ].filter(({ isDisabled }) => !isDisabled);
