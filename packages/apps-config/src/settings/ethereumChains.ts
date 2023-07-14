@@ -17,5 +17,6 @@ export const ethereumChains = [
   'root',
   'Darwinia2',
   'Crab2',
-  'Pangolin2'
+  'Pangolin2',
+  'storage-chain',
 ];
