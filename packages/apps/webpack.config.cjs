@@ -22,7 +22,7 @@ module.exports = merge(
     plugins: [
       new SubresourceIntegrityPlugin(),
       new HtmlWebpackPlugin({
-        PAGE_TITLE: 'StorageChain Portal',
+        PAGE_TITLE: 'OsloNetwork Portal',
         inject: true,
         template: path.join(context, `${hasPublic ? 'public/' : ''}index.html`)
       })

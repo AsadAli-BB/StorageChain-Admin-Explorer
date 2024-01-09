@@ -27,7 +27,7 @@ module.exports = merge(
         }]
       }),
       new HtmlWebpackPlugin({
-        PAGE_TITLE: 'StorageChain Portal',
+        PAGE_TITLE: 'OsloNetwork Portal',
         inject: true,
         template: path.join(context, '../apps/public/index.html')
       })

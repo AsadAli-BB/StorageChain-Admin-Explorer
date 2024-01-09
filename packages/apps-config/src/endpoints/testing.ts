@@ -23,13 +23,13 @@ export const testChains: EndpointOption[] = [
   //     'Ajuna Network': 'wss://rpc-test.ajuna.network'
   //   }
   // },
-  {
-    info: 'StorageChain',
-    text: 'StorageChain Testnet',
-    providers: {
-      'StorageChain': 'wss://ws-storscan-testnet.invo.zone'
-    }
-  },
+  // {
+  //   info: 'StorageChain',
+  //   text: 'StorageChain Testnet',
+  //   providers: {
+  //     'StorageChain': 'wss://ws-storscan-testnet.invo.zone'
+  //   }
+  // },
   // {
   //   info: 'nodle',
   //   text: 'Arcadia',

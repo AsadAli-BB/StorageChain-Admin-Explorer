@@ -25,9 +25,9 @@ export const prodChains: EndpointOption[] = [
   // },
    {
     info: 'StorageChain',
-    text: 'StorageChain',
+    text: 'OsloNetwork',
     providers: {
-      'StorageChain': 'wss://ws-storscan-mainnet.invo.zone'
+      'OsloNetwork': 'wss://websocket.oslocrypto.com'
     }
   },
   // {
