@@ -128,13 +128,13 @@ import zCloak from './zCloak';
 import zeitgeist from './zeitgeist';
 import zenlink from './zenlink';
 import zero from './zero';
-import storageChain from './storage-chain';
+import storageChain from './global-network';
 
 
 // NOTE: The mapping is done from specName in state.getRuntimeVersion
 const spec: Record<string, OverrideBundleDefinition> = {
 
-  'storage-chain': storageChain,
+  'global-network': storageChain,
   Crab: crab,
   Darwinia: darwinia,
   'Darwinia Crab PC2': pangolin,

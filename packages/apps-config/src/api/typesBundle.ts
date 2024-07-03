@@ -12,7 +12,7 @@ import type { OverrideBundleType } from '@polkadot/types/types';
 export const typesBundle = {
   "spec": {
 
-    "storage-chain": {
+    "global-network": {
       "instances": {
         "council": [
           "councilCollective"
